@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const path = require("path");
 const express = require("express");
-const mongoose = require("mongoose");
+const mongoose = require("mongoose");// to connect mongo db data
 const cookiePaser = require("cookie-parser");
 
 const Blog = require("./models/blog");
